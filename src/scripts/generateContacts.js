@@ -1,5 +1,5 @@
 import { PATH_DB } from '../constants/contacts.js';
-import * as fs from 'fs/promises';
+import fs from 'node:fs/promises';
 import { createFakeContact } from '../utils/createFakeContact.js';
 import { getAllContacts } from './getAllContacts.js';
 
